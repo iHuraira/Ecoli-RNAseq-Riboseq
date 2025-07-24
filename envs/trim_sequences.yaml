@@ -1,6 +1,7 @@
-name: sra_tools
+name: trim_sequences
 channels:
   - bioconda
   - conda-forge
+  - default
 dependencies:
-  - sra-tools
+  - trimmomatic

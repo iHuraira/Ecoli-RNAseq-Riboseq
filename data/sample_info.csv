@@ -1,4 +1,73 @@
-sra_id
-SRR22355218
-SRR22355219
-SRR22355220
+run,data_type,genotype,treatment,nutrient_concentration,replicate
+SRR15446740,RNA-Seq,wild type,carbon limitation,0.1,rep1
+SRR15446741,RNA-Seq,wild type,carbon limitation,0.1,rep2
+SRR15446742,RNA-Seq,wild type,carbon limitation,0.1,rep3
+SRR15446743,RNA-Seq,wild type,carbon limitation,0.6,rep1
+SRR15446744,RNA-Seq,wild type,carbon limitation,0.6,rep2
+SRR15446745,RNA-Seq,wild type,carbon limitation,0.6,rep3
+SRR15446746,RNA-Seq,wild type,nitrogen limitation,0.1,rep1
+SRR15446747,RNA-Seq,wild type,nitrogen limitation,0.1,rep2
+SRR15446748,RNA-Seq,wild type,nitrogen limitation,0.1,rep3
+SRR15446749,RNA-Seq,wild type,nitrogen limitation,0.6,rep1
+SRR15446750,RNA-Seq,wild type,nitrogen limitation,0.6,rep2
+SRR15446751,RNA-Seq,wild type,nitrogen limitation,0.6,rep3
+SRR15446752,RNA-Seq,wild type,phosphate limitation,0.1,rep1
+SRR15446753,RNA-Seq,wild type,phosphate limitation,0.1,rep2
+SRR15446754,RNA-Seq,wild type,phosphate limitation,0.1,rep3
+SRR15446755,RNA-Seq,wild type,phosphate limitation,0.6,rep1
+SRR15446756,RNA-Seq,wild type,phosphate limitation,0.6,rep2
+SRR15446757,RNA-Seq,wild type,phosphate limitation,0.6,rep3
+SRR15446758,RNA-Seq,wild type,glucose minimal,0.9,rep1
+SRR15446759,RNA-Seq,wild type,glucose minimal,0.9,rep2
+SRR15446760,RNA-Seq,wild type,glucose minimal,0.9,rep3
+SRR15446761,RNA-Seq,wild type,defined rich MOPS,1.8,rep1
+SRR15446762,RNA-Seq,wild type,defined rich MOPS,1.8,rep2
+SRR15446763,RNA-Seq,wild type,defined rich MOPS,1.8,rep3
+SRR15446764,RNA-Seq,delta_rplA,nitrogen limitation,0.1,rep1
+SRR15446765,RNA-Seq,delta_rplA,nitrogen limitation,0.1,rep2
+SRR15446766,RNA-Seq,delta_rplA,nitrogen limitation,0.1,rep3
+SRR15446767,RNA-Seq,delta_rplA,nitrogen limitation,0.6,rep1
+SRR15446768,RNA-Seq,delta_rplA,nitrogen limitation,0.6,rep2
+SRR15446769,RNA-Seq,delta_rplA,nitrogen limitation,0.6,rep3
+SRR15446770,RNA-Seq,delta_leuB,Leucine limitation,0.1,rep1
+SRR15446771,RNA-Seq,delta_leuB,Leucine limitation,0.1,rep2
+SRR15446772,RNA-Seq,delta_leuB,Leucine limitation,0.1,rep3
+SRR15446773,RNA-Seq,delta_leuB,Leucine limitation,0.6,rep1
+SRR15446774,RNA-Seq,delta_leuB,Leucine limitation,0.6,rep2
+SRR15446775,RNA-Seq,delta_leuB,Leucine limitation,0.6,rep3
+SRR15446776,Ribo-Seq,wild type,carbon limitation,0.1,rep1
+SRR15446777,Ribo-Seq,wild type,carbon limitation,0.1,rep2
+SRR15446778,Ribo-Seq,wild type,carbon limitation,0.1,rep3
+SRR15446779,Ribo-Seq,wild type,carbon limitation,0.6,rep1
+SRR15446780,Ribo-Seq,wild type,carbon limitation,0.6,rep2
+SRR15446781,Ribo-Seq,wild type,carbon limitation,0.6,rep3
+SRR15446782,Ribo-Seq,wild type,nitrogen limitation,0.1,rep1
+SRR15446783,Ribo-Seq,wild type,nitrogen limitation,0.1,rep2
+SRR15446784,Ribo-Seq,wild type,nitrogen limitation,0.1,rep3
+SRR15446785,Ribo-Seq,wild type,nitrogen limitation,0.6,rep1
+SRR15446786,Ribo-Seq,wild type,nitrogen limitation,0.6,rep2
+SRR15446787,Ribo-Seq,wild type,nitrogen limitation,0.6,rep3
+SRR15446788,Ribo-Seq,wild type,phosphate limitation,0.1,rep1
+SRR15446789,Ribo-Seq,wild type,phosphate limitation,0.1,rep2
+SRR15446790,Ribo-Seq,wild type,phosphate limitation,0.1,rep3
+SRR15446791,Ribo-Seq,wild type,phosphate limitation,0.6,rep1
+SRR15446792,Ribo-Seq,wild type,phosphate limitation,0.6,rep2
+SRR15446793,Ribo-Seq,wild type,phosphate limitation,0.6,rep3
+SRR15446794,Ribo-Seq,wild type,glucose minimal,0.9,rep1
+SRR15446795,Ribo-Seq,wild type,glucose minimal,0.9,rep2
+SRR15446796,Ribo-Seq,wild type,glucose minimal,0.9,rep3
+SRR15446797,Ribo-Seq,wild type,defined rich MOPS,1.8,rep1
+SRR15446798,Ribo-Seq,wild type,defined rich MOPS,1.8,rep2
+SRR15446799,Ribo-Seq,wild type,defined rich MOPS,1.8,rep3
+SRR15446800,Ribo-Seq,delta_rplA,nitrogen limitation,0.1,rep1
+SRR15446801,Ribo-Seq,delta_rplA,nitrogen limitation,0.1,rep2
+SRR15446802,Ribo-Seq,delta_rplA,nitrogen limitation,0.1,rep3
+SRR15446803,Ribo-Seq,delta_rplA,nitrogen limitation,0.6,rep1
+SRR15446804,Ribo-Seq,delta_rplA,nitrogen limitation,0.6,rep2
+SRR15446805,Ribo-Seq,delta_rplA,nitrogen limitation,0.6,rep3
+SRR15446806,Ribo-Seq,delta_leuB,Leucine limitation,0.1,rep1
+SRR15446807,Ribo-Seq,delta_leuB,Leucine limitation,0.1,rep2
+SRR15446808,Ribo-Seq,delta_leuB,Leucine limitation,0.1,rep3
+SRR15446809,Ribo-Seq,delta_leuB,Leucine limitation,0.6,rep1
+SRR15446810,Ribo-Seq,delta_leuB,Leucine limitation,0.6,rep2
+SRR15446811,Ribo-Seq,delta_leuB,Leucine limitation,0.6,rep3

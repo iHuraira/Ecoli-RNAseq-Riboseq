@@ -1,14 +1,28 @@
-nextflow.enable.dsl=2
+params.file_name = "data/sample_info.csv"
 
-include { sra_download } from './modules/sra_download.nf'
+include { fetch_sra_files } from './processes/fetch_sra.nf'
+include { fasterq_dump } from './processes/process_sra.nf'
+include { quality_check as pre_quality_check } from './processes/quality_check.nf'
+include { quality_check as post_quality_check } from './processes/quality_check.nf'
+include { trim_sequences } from './processes/trim_sequences.nf'
+
 
 workflow {
 
-    sra_id = Channel
-            .fromPath('data/sample_info.csv')
-            .splitCsv(header: true)
-            .map { row -> row.sra_id}
+    def samples = Channel
+        .fromPath(params.file_name)
+        .splitCsv(header : true, strip : true)
+        .first()
 
-    sra_files = sra_download(sra_id)
+
+    fetched_sra = fetch_sra_files(samples)
+
+    fastq_files  = fasterq_dump(fetched_sra)
+
+    pre_quality_check(fastq_files)
+
+    trim_files = trim_sequences(fastq_files)
+
+    post_quality_check(trim_files)
 
 }

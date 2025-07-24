@@ -1,6 +1,7 @@
-name: sra_tools
+name: quality_check
 channels:
   - bioconda
   - conda-forge
 dependencies:
-  - sra-tools
+  - fastqc
+  - multiqc
